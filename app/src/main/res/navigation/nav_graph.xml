@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.frasesmotivacionalesapp.InicioFragment"
+        android:label="Inicio" >
+
+        <!-- Acción para ir a la pantalla de detalles -->
+        <action
+            android:id="@+id/action_inicioFragment_to_detallesFragment"
+            app:destination="@id/detallesFragment" />
+
+        <!-- Nueva acción para ir a Configuración -->
+        <action
+            android:id="@+id/action_inicioFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detallesFragment"
+        android:name="com.example.frasesmotivacionalesapp.DetallesFragment"
+        android:label="Frase del día" />
+
+    <!-- Nueva entrada: Configuración -->
+    <fragment
+        android:id="@+id/configuracionFragment"
+        android:name="com.example.frasesmotivacionalesapp.ConfiguracionFragment"
+        android:label="Configuración" />
+</navigation>
