@@ -18,15 +18,3 @@ git clone https://github.com/TuUsuario/FrasesMotivacionalesApp.git
 3. Asegúrate de tener Android SDK instalado y configurado.
 4. Ejecuta la aplicación en un emulador o dispositivo físico.
 5. Si deseas cambiar la configuración de colores de fondo, accede a la pantalla de configuración dentro de la app.
-   
-
----
-
-### **4. Finaliza y sube los cambios**
-
-Una vez que tengas todo listo en tu `README.md`, no olvides hacer **un último commit y push**:
-
-```bash
-git add README.md
-git commit -m "Añadir descripción y capturas al README"
-git push origin master
