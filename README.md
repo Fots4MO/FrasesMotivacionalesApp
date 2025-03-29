@@ -18,3 +18,8 @@ git clone https://github.com/TuUsuario/FrasesMotivacionalesApp.git
 3. Asegúrate de tener Android SDK instalado y configurado.
 4. Ejecuta la aplicación en un emulador o dispositivo físico.
 5. Si deseas cambiar la configuración de colores de fondo, accede a la pantalla de configuración dentro de la app.
+
+## Capturas de Pantalla
+![](assets/Azul.png)
+![](assets/Verde.png)
+![](assets/Rosa.png)
