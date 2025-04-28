@@ -23,3 +23,8 @@ git clone https://github.com/TuUsuario/FrasesMotivacionalesApp.git
 ![](assets/Azul.png)
 ![](assets/Verde.png)
 ![](assets/Rosa.png)
+
+## Nuevas funcionalidades:
+- 'Ver coleccion':
+  - 'Ver frase': Ver frases aleatorias de la base de datos (store de firebase)
+  - 'Gestionar colección': CRUD para la base de datos (store de firebase)
